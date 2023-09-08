@@ -30,13 +30,14 @@ const navbar = () => {
           bgColor='orange'
           color='primary'
           size='18px'
-          border='none'
+          border='2'
+          className="border-2 border-black"
         />
       </div>
       <div className="flex cursor-pointer md:hidden" onClick={toggleMenu}>
           {!menuOpen ? <HiX size={50} /> : <HiMenu size={50} />}
       </div>
-      <div className={!menuOpen ? 'fixed right-0 top-[152px] w-[60%] border-b-2 p-10 bg-orange h-full border ease-in-out duration-300 z-10 md:hidden': 'fixed right-[-100%]'}>
+      <div className={!menuOpen ? 'fixed right-0 top-[102px] w-[60%] border-b-2 p-10 bg-orange h-full border ease-in-out duration-300 z-10 md:hidden': 'fixed right-[-100%]'}>
         <div className="flex flex-col justify-start items-start">
           <a href="/home" className="w-full p-4 font-semibold text-primary text-[18px] hover:text-orange">Home</a>
           <a href="/aboutus" className="w-full p-4 font-semibold text-primary text-[18px] hover:text-orange">About Us</a>

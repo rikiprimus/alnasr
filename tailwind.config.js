@@ -9,9 +9,10 @@ export default {
       colors: {
         primary: '#525252',
         tgreen: '#1DA599',
-        bggreen: '#C1FFFA',
         orange: '#FFC265',
-        bgblue: 'C1FFFA',
+        bgtext: '#C1FFFA',
+        bgicon: 'C1FFFA',
+        bgblue: 'F3FFFE',
         abu: '#4A4A4A',
       },
       fontFamily: {
