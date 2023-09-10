@@ -11,13 +11,13 @@ export default {
         tgreen: '#1DA599',
         orange: '#FFC265',
         bgtext: '#C1FFFA',
-        bgicon: 'C1FFFA',
-        bgblue: 'F3FFFE',
+        bgicon: '#C1FFFA',
+        bgblue: '#F3FFFE',
         abu: '#4A4A4A',
       },
       fontFamily: {
         kufam: 'Kufam, sans',
-        nunito: 'Nunito sans',
+        nunito: 'Nunito, sans',
       },
     },
     screens: {

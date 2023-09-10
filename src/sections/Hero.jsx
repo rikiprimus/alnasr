@@ -8,8 +8,8 @@ const Hero = () => {
       <Navbar />
       <div className='w-full flex flex-col justify-center gap-[100px] md:gap-0 lg:flex-row'>
         <div className='flex flex-col w-full  lg:w-[650px]'>
-          <div className='flex items-center mb-[35px]'>
-            <p className='font-nunito font-[24px] text-tgreen text-[15px] bg-bggreen px-[35px] py-[5px] rounded-full md:text-[25px]'>No. 1 in Indonesia</p>
+          <div className='flex items-centermb-[35px]'>
+            <p className='font-nunito font-[24px] text-tgreen text-[15px] bg-bgicon px-[35px] py-[5px] rounded-full md:text-[25px]'>No. 1 in Indonesia</p>
           </div>
           <div className='w-full mb-[15px]'>
             <p className='font-kufam text-[34px] md:text-[54px] font-black text-abu'>Make it easy for your Umrah worship with Al Nasr Travel</p>
