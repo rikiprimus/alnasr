@@ -7,13 +7,13 @@ import { MdHealthAndSafety, MdDirectionsBus, MdOutlineFastfood, MdOutlineHotel, 
 
 const Facilities = () => {
   return (
-    <div className='w-full flex flex-col justify-center items-center bg-bgblue px-[30px] md:px-[100px] py-[100px] md:py-[150px] gap-[70px]'>
-      <div className='flex flex-col gap-4 items-center'>
-        <p className='font-kufam text-center text-[34px] md:text-[54px] font-black text-abu'>Facilities We Provide For You</p>
-        <p className='font-nunit font-semibold text-center text-[14px] md:text-[24px] text-abu'>We provide comfort for our customers, with the various facilities we provide that we provide</p>
+    <div className='w-full flex flex-col justify-center items-center bg-bgblue px-[30px] md:px-[100px] py-[100px] md:py-[150px] gap-[30px] md:gap-[70px]'>
+      <div className='flex flex-col gap-2 md:gap-4 items-center'>
+        <p className='font-kufam text-center text-[30px] md:text-[44px] font-black text-abu'>Gallery Footage In Saudi Arabia</p>
+        <p className='font-nunit font-semibold text-center text-[14px] md:text-[20px] text-abu'>We provide comfort for our customers, with the various facilities we provide that we provide</p>
       </div>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-[50px]'>
-      <CardFacilities 
+      <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-[50px]'>
+        <CardFacilities 
           icon={
             <BgIcon 
               icon={<MdHealthAndSafety className='w-full h-full'/>}

@@ -33,11 +33,11 @@ const Testimonial = () => {
         </div>
         <div className='flex flex-col w-full text-end md:w-[700px] gap-2'>
           <p className='font-kufam text-[30px] md:text-[60px] font-black text-abu'>Testimonials from our customers</p>
-          <p className='font-nunit font-semibold text-[15px] pb-4 md:text-[24px] text-abu'>We have 100.000+ customers, here are our customer testimonials</p>
+          <p className='font-nunit font-semibold text-[12px] pb-4 md:text-[20px] text-abu'>We have 100.000+ customers, here are our customer testimonials</p>
         </div>
       </div>
-      <div className='flex flex-col gap-6 md:gap-[52px] min-w-[900px] overflow-x-auto' ref={containerRef}>
-        <div className='flex gap-[50px] min-w-[3000px] h-[220px]'>
+      <div className='flex flex-col gap-8 md:gap-[52px] w-full overflow-x-auto' ref={containerRef}>
+        <div className='flex gap-[50px] min-w-[1975px] md:min-w-[2800px]'>
           <div className='min-w-[300px]'>
             <CardTestimonial 
               image={Testimonial1}
@@ -79,8 +79,8 @@ const Testimonial = () => {
             />
           </div>
         </div>
-        <div className='flex gap-[50px] min-w-[3000px] h-[220px]'>
-          <div className='min-w-[220px]'></div>
+        <div className='flex gap-[50px] min-w-[1975px] md:min-w-[3000px]'>
+          <div className='min-w-[120px] md:min-w-[220px]'></div> {/*space*/}
           <div className='min-w-[300px]'>
             <CardTestimonial 
               image={Testimonial1}

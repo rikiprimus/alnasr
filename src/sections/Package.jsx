@@ -12,12 +12,12 @@ import bgIcon from '../components/img/bgIcon'
 
 const Package = () => {
   return (
-    <div className='w-full flex flex-col justify-center items-center px-[30px] md:px-[100px] py-[100px] md:py-[150px] gap-[70px]'>
+    <div className='w-full flex flex-col justify-center items-center px-[20px] md:px-[100px] py-[100px] md:py-[150px] gap-10 md:gap-[70px]'>
       <div className='flex flex-col gap-4 items-center'>
-        <p className='font-kufam text-center text-[34px] md:text-[54px] font-black text-abu'>Al Nasr Special Umrah and Hajj Packages</p>
+        <p className='font-kufam text-center text-[25px] md:text-[44px] font-black text-abu'>Al Nasr Special Umrah and Hajj Packages</p>
         <p className='font-nunit font-semibold text-center text-[14px] md:text-[24px] text-abu'>Choose your package according to your needs, guaranteed cheap and complete</p>
       </div>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-[70px]'>
+      <div className='w-full grid grid-cols-2 gap-2 md:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         <CardPackage 
           image={Arabia1}
           rank="Bronze"
@@ -145,8 +145,8 @@ const Package = () => {
           />
           }
         />
-        <div className='flex flex-col justify-center items-center gap-[20px] border-[1px] rounded-xl shadow-lg pl-[26px] py-[28px] w-full md:w-[350px]'>
-          <p className='font-nunito font-semibold text-tgreen text-[20px]'>Soon Program</p>
+        <div className='flex flex-col justify-center items-center gap-[20px] border-[1px] rounded-xl shadow-lg py-[28px] w-full md:w-[350px]'>
+          <p className='font-nunito font-semibold text-tgreen text-[10px] md:text-[20px]'>Soon Program</p>
         </div>
       </div>
     </div>
