@@ -4,7 +4,7 @@ import Logo from "../../assets/logo/logo.svg";
 //icon
 import { HiMenu, HiX } from "react-icons/hi";
 //component
-import Button from "../button/button";
+import Button from "../button/Button";
 
 const navbar = () => {
   //useState untuk open mobile navbar
