@@ -12,7 +12,7 @@ const cardPackage = ({ image, rank, sell, title, price, icon1, icon2, icon3,icon
         </div>
       </div>
       <p className='font-kufam font-semibold text-primary text-[10px] md:text-[20px]'>{title}</p>
-      <p className='flex gap-[1px] font-nunito font-semibold text-primary text-[10px] md:text-[20px]'>$ {price} /<p className='text-tgreen font-bold'>person</p></p>
+      <p className='flex gap-[1px] font-nunito font-semibold text-primary text-[10px] md:text-[20px]'>$ {price} /<span className='text-tgreen font-bold'>person</span></p>
       <div className='flex gap-[4px] md:gap-2'>
         {icon1}
         {icon2}
@@ -20,7 +20,7 @@ const cardPackage = ({ image, rank, sell, title, price, icon1, icon2, icon3,icon
         {icon4}
         {icon5}
       </div>
-      <div className=''>
+      <div>
         <ButtonCard
           text='View Detail'
         />

@@ -14,7 +14,7 @@ const navbar = () => {
   }
   
   return (
-    <div className='w-full flex justify-between items-center font-nunito'>
+    <div className='fixed z-20 top-0 left-0 bg-white w-full flex justify-between items-center font-nunito px-8 py-5 md:relative'>
       <div>
         <a href="/home" >
           <img src={Logo} className="font-semibold h-[45px] md:h-[55px]"/>
@@ -35,7 +35,7 @@ const navbar = () => {
       <div className="flex items-center justify-center h-[60px] w-[60px] cursor-pointer md:hidden" onClick={toggleMenu}>
           {!menuOpen ? <HiX size={35} /> : <HiMenu size={35} />}
       </div>
-      <div className={!menuOpen ? 'fixed right-0 top-[102px] w-[60%] border-b-2 p-4 rounded-tl-xl bg-orange h-full border ease-in-out duration-300 z-10 md:hidden': 'fixed right-[-100%]'}>
+      <div className={!menuOpen ? 'fixed right-0 top-[102px] w-[60%] border-b-2 p-4 rounded-tl-xl bg-orange h-full border ease-in-out duration-300 z-10 md:hidden': 'hidden right-[-100]'}>
         <div className="flex flex-col justify-start items-start">
           <a href="/home" className="w-full p-4 font-semibold text-primary text-[18px]">Home</a>
           <a href="/aboutus" className="w-full p-4 font-semibold text-primary text-[18px]">About Us</a>

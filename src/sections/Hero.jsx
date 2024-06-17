@@ -4,9 +4,9 @@ import Rectangle from '../assets/photo/rectangle.svg';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col justify-center gap-[78px] px-[30px] md:px-[100px] pb-[100px]'>
+    <div className='flex flex-col justify-center gap-[78px] px-[30px] md:px-[100px] pb-[100px] pt-28 md:pt-0'>
       <Navbar />
-      <div className='w-full flex flex-col justify-center gap-[100px] md:gap-10 md:flex-row'>
+      <div className='w-full flex flex-col justify-center gap-[100px] md:gap-10 md:flex-row md:my-28'>
         <div className='flex flex-col w-full gap-2 l:gap-6 md:w-[650px]'>
           <div className='flex items-center'>
             <p className='font-nunito font-[24px] bg-bgicon text-tgreen text-[15px] rounded-full px-[25px] py-[5px] lg:px-[35px] lg:text-[20px]'>No. 1 in Indonesia</p>

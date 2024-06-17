@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdOutlineStar } from 'react-icons/md'
 
-const cardTestimonial = ({ image,rating, nama, text }) => {
+const cardTestimonial = ({ image, rating, nama, text }) => {
   return (
     <div className='flex w-[300px] h-[150px] md:w-[500px] md:h-[220px] p-4 md:p-6 gap-4 rounded-lg border shadow-lg'>
       <div className='flex flex-col items-center gap-4 md:gap-8'>

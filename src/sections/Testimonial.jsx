@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import ButtonSlider from '../components/button/ButtonSlider'
 import CardTestimonial from '../components/card/cardTestimonial'
 
-import { MdArrowBack, MdArrowForward, MdOutlineStar } from 'react-icons/md'
+import { MdArrowBack, MdArrowForward } from 'react-icons/md'
 import Testimonial1 from '../assets/photo/testimonial1.svg'
 
 const Testimonial = () => {
