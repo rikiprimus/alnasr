@@ -1,4 +1,4 @@
-import Button from '../components/button/button';
+import Button from '../components/button/Button';
 import Navbar from '../components/navbar/navbar';
 import Rectangle from '../assets/photo/rectangle.svg';
 
