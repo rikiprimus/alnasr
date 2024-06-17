@@ -1,6 +1,6 @@
 import React from 'react';
 //component
-import Button from '../components/button/button';
+import Button from '../components/button/Button';
 import Buttonborder from '../components/button/Buttonborder';
 import BgIcon from '../components/img/bgIcon';
 //image
